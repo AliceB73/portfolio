@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3efc6888.chunk.css",
+    "main.js": "/portfolio/static/js/main.7eb99d80.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7eb99d80.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.ffddf197.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.ffddf197.js.map",
+    "static/js/2.629dbb11.chunk.js": "/portfolio/static/js/2.629dbb11.chunk.js",
+    "static/js/2.629dbb11.chunk.js.map": "/portfolio/static/js/2.629dbb11.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.3efc6888.chunk.css.map": "/portfolio/static/css/main.3efc6888.chunk.css.map",
+    "static/js/2.629dbb11.chunk.js.LICENSE.txt": "/portfolio/static/js/2.629dbb11.chunk.js.LICENSE.txt",
+    "static/media/avatar.2ff7fcf9.png": "/portfolio/static/media/avatar.2ff7fcf9.png",
+    "static/media/booki-768x956.606d8998.png": "/portfolio/static/media/booki-768x956.606d8998.png",
+    "static/media/cineteaz.764f59ea.png": "/portfolio/static/media/cineteaz.764f59ea.png",
+    "static/media/dialogue-box.e6c936aa.png": "/portfolio/static/media/dialogue-box.e6c936aa.png",
+    "static/media/greenminded.10d4fd14.png": "/portfolio/static/media/greenminded.10d4fd14.png",
+    "static/media/koukaki-768x1959.f6b980fb.png": "/portfolio/static/media/koukaki-768x1959.f6b980fb.png",
+    "static/media/la-maison-jungle.0039c460.png": "/portfolio/static/media/la-maison-jungle.0039c460.png",
+    "static/media/lespommesdesophie.58c2ea0f.png": "/portfolio/static/media/lespommesdesophie.58c2ea0f.png",
+    "static/media/loading.c0efff43.png": "/portfolio/static/media/loading.c0efff43.png",
+    "static/media/logo.b9678db3.png": "/portfolio/static/media/logo.b9678db3.png",
+    "static/media/motaphoto-507x1536.4dff4882.png": "/portfolio/static/media/motaphoto-507x1536.4dff4882.png",
+    "static/media/nutrivoice.0f51452e.png": "/portfolio/static/media/nutrivoice.0f51452e.png",
+    "static/media/planty-768x1456.e7ee2a29.png": "/portfolio/static/media/planty-768x1456.e7ee2a29.png",
+    "static/media/portfolio.b64cb1e0.png": "/portfolio/static/media/portfolio.b64cb1e0.png",
+    "static/media/portfoliov1.00a30e1b.png": "/portfolio/static/media/portfoliov1.00a30e1b.png",
+    "static/media/print-it-768x1649.83bba93a.png": "/portfolio/static/media/print-it-768x1649.83bba93a.png",
+    "static/media/the-artbox-768x1588.554376a5.png": "/portfolio/static/media/the-artbox-768x1588.554376a5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffddf197.js",
+    "static/js/2.629dbb11.chunk.js",
+    "static/css/main.3efc6888.chunk.css",
+    "static/js/main.7eb99d80.chunk.js"
+  ]
+}
