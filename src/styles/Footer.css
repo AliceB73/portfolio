@@ -1,0 +1,90 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-top: 2px solid var(--darker_purple);
+  padding-top: 20px;
+  background-color: var(--white);
+}
+
+footer .aj-logo {
+  width: 140px;
+}
+
+footer .social-links {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+footer .social-links li {
+  list-style-type: none;
+}
+
+footer svg {
+  fill: var(--darker_purple);
+}
+
+footer button {
+  text-decoration: none;
+  font-family: "Afacade", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--licorice);
+}
+
+.lightbox-footer {
+  z-index: 1000;
+  position: fixed;
+  height: 80%;
+  width: 80%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 35px;
+  margin-bottom: 40px;
+  color: var(--darker_purple);
+  font-family: "Afacad", sans-serif;
+}
+
+.lightbox-footer-content {
+  position: relative;
+  padding: 24px;
+}
+
+.lightbox-footer h2 {
+  margin: 16px 0;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.lightbox-footer h3 {
+  margin: 16px 0;
+}
+
+.lightbox-footer p {
+  margin: 0;
+}
+
+.lightbox-footer button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 24px;
+}
+
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}

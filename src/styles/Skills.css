@@ -1,0 +1,77 @@
+#skills {
+  margin: 80px auto;
+  color: var(--darker_purple);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-bar {
+  margin: 10px 0;
+  font-family: "Press Start 2P", cursive;
+  width: 40%;
+}
+
+.skill-name {
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.skill-level {
+  width: 100%;
+  height: 20px;
+  background-color: var(--another_black);
+  border: 2px solid var(--another_black);
+  box-shadow: 0 0 5px var(--another_black);
+  position: relative;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    var(--dark_purple),
+    var(--light_purple)
+  );
+  box-shadow: inset 0 0 4px var(--dark_purple);
+  transition: width 1s ease-in-out;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill-bar {
+  position: relative;
+}
+
+.skill-bar::before {
+  content: "";
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE8AAAA+CAYAAABqSkbiAAAAAXNSR0IArs4c6QAAAdFJREFUeF7tmu1RwzAQRONKoKbQQKgMGoCaQiVkmCHBVhzdrU9fIS9/fbJPT7tr2fG0E3/Hw/5bGfL8/pmWT8p4tbZlf/JEWjangvupb9kf8ALOAF5NeKoNLKuVzsCe/ZnK69mctRBbMs46p7K4wEtoAs+SV+Z4CF5pm1rzUJqtYdNIf1e2Bd4SZ25xgWdID3iWNzdmIMqLKC+acU9vH9nLf72+SOue2uR42EvjaxfP+5uAp+EGnsZrUQ28XvBKZ1xgHl2GhpQHvL834/INA3jA22z5orZV93Gbux5kIPACCwE84AUIBIYulJeeJ/q4FuhryKErr6QufXZ/qzIksVlTwAusEPBawXv0DMwp7ZfNJeqa/28bEEGTocALYAbeKPD+ewYqSktZmJkHvN1NRsC7/j7PLTDg1fy40cree3sWjmScW5IWtPNx4HlJrdQBD3hzAu77gLvQy3c0JZbMuOKZN/o+EHhe2a/UAe9R4PW2cU2lVc884AVsAjzguQgU3+dZVy29D2yZcc0zr7aNgWfJNXMceMDzESDzfJxcVSrMnjbtfsOI3kCANyOI8lwGXS8qAK/5XvU8k24XvsU7hTmSTYfLPCsDgSfYGuUJsO5ZeSfnK1w+Ht3/zwAAAABJRU5ErkJggg==);
+  position: absolute;
+  background-size: contain;
+  left: -17px;
+  top: 34px;
+  width: 40px;
+  height: 57px;
+  z-index: 5;
+  background-repeat: no-repeat;
+  transition: 1s ease-out;
+}
+
+.skill-bar:hover::before {
+  transform: scale(1.3);
+}
+
+.level-percentage {
+  margin-right: 8px;
+}

@@ -1,0 +1,139 @@
+.aj-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.09);
+  padding: 8px 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--white);
+  opacity: 0.9;
+}
+
+.aj-banner .aj-logo {
+  width: 104px;
+  height: auto;
+}
+
+.aj-banner .aj-nav-menu {
+  display: flex;
+  gap: 16px;
+}
+
+.aj-banner .aj-nav-menu li {
+  list-style-type: none;
+}
+
+.aj-banner .aj-nav-menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--darker_purple);
+  position: relative;
+  padding-bottom: 8px;
+}
+
+.aj-banner .aj-nav-menu li a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--darker_purple);
+  transition: width 0.3s ease-in-out;
+}
+
+.aj-banner .aj-nav-menu li a:hover:before {
+  width: 100%;
+}
+
+/** Menu mobile **/
+
+.menu-toggle {
+  position: relative;
+  background-color: var(--light_green);
+  height: 32px;
+  width: 50px;
+  border-radius: 35px;
+  border: 2px solid var(--green);
+}
+
+button.menu-toggle span::before,
+button.menu-toggle::after,
+button.menu-toggle::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 14px;
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  margin-top: -1px;
+  transition: all, ease, 0.2s;
+  border-radius: 3px;
+  background-color: var(--licorice);
+}
+
+button.menu-toggle::before {
+  transform: translateY(-4px);
+}
+
+button.menu-toggle::after {
+  transform: translateY(4px);
+}
+
+button.menu-toggle.open::before {
+  transform: rotate(45deg);
+}
+
+button.menu-toggle.open span::before {
+  opacity: 0;
+}
+
+button.menu-toggle.open::after {
+  transform: rotate(-45deg);
+}
+
+.menu-mobile-container {
+  display: none;
+}
+
+.menu-mobile.show .aj-nav-menu {
+  display: flex;
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-menu-mobile {
+  visibility: hidden;
+  position: absolute;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  left: 0;
+  top: -100px;
+  opacity: 0;
+  align-items: center;
+  padding: 24px 0;
+  transition: opacity 1s ease, top 0.5s ease-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-mobile-container {
+    display: block;
+  }
+  .aj-banner .aj-nav-menu.nav-menu-desktop {
+    display: none;
+  }
+
+  .aj-banner {
+    padding: 8px 40px;
+  }
+}
+
+.scroll-offset {
+  scroll-margin-top: 60px;
+}

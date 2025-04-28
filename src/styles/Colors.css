@@ -1,0 +1,52 @@
+:root {
+  --dark_grey: #35393c;
+  --light_grey: #e0e0e0;
+  --white: #f3f1f5;
+  --color_1: #42858c;
+  --color_2: #5da399;
+  --color_3: #63ccca;
+  --color_4: #397367;
+  --dark_purple: #8174a0;
+  --light_purple: #a888b5;
+  --pink: #efb6c8;
+  --orange: #ffd2a0;
+  --dark_orange: #fab15e;
+  --light_blue: #c3dfe0;
+  --dark_blue: #0b3948;
+  --yellow: #f4eea9;
+  --darker_purple: #1f0322;
+  --black: #272727;
+  --black2: #2f242c;
+  --licorice: #211103;
+  --another_black: #1b2432;
+  --light_green: #d3f6db;
+  --green: #80b192;
+  --green_tea: #c5e6a6;
+  --red: #e06052;
+  --reder: #e13d2a;
+  --grey: #7f7c82;
+  --blueish: #609aca;
+}
+
+.fjalla-one {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lora {
+  font-family: "Lora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+body {
+  background-color: var(--light_green);
+}

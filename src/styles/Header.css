@@ -1,0 +1,85 @@
+#accueil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background-color: var(--darker_purple);
+  padding: 40px 0;
+}
+
+.header-container {
+  max-width: 520px;
+}
+
+.header-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#accueil h1 {
+  position: relative;
+  color: var(--white);
+  font-size: 2.5rem;
+  max-width: 600px;
+  text-align: center;
+  margin: 8px;
+}
+
+#accueil .social-links {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+#accueil .social-links li {
+  list-style-type: none;
+  transition: all ease-out 0.5s;
+}
+
+#accueil a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color_4);
+}
+
+#accueil .contact-btn {
+  font-size: 1rem;
+  color: var(--darker_purple);
+  font-weight: bold;
+  background-color: var(--light_green);
+  border-radius: 24px;
+  padding: 0 30px;
+  height: 40px;
+  max-width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-out 0.5s;
+}
+
+.contact-btn:hover,
+#accueil .social-links li:hover {
+  scale: 1.1;
+}
+
+svg {
+  width: 40px;
+  fill: var(--white);
+}
+
+.avatar-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-container img {
+  width: 80%;
+  max-width: 320px;
+  background-color: var(--light_green);
+  border-radius: 50%;
+}
