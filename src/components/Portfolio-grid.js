@@ -89,6 +89,20 @@ function PortfolioGrid() {
                                     <p key={index}>{paragraph}</p>
                                 ))}
                             </div>
+                            {selectedProject.tags.includes('uxdesign-link') ? (
+                                <a href={selectedProject.link} target="_blank" rel="noopener noreferrer" className="project-link cta-btn">
+                                    Voir le prototype
+                                </a>
+                            ) : selectedProject.tags.includes('dev-link')
+                                ? (
+                                    <a href={selectedProject.link} target="_blank" rel="noopener noreferrer" className="project-link cta-btn">
+                                        Voir le projet
+                                    </a>
+                                ) : selectedProject.tags.includes('no-link')
+                                    ? (
+                                        null
+                                    )
+                                    : null}
                         </div>
                     </div>
                     <div className='navigation' onClick={(e) => e.stopPropagation()}>

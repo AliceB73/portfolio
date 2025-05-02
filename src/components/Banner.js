@@ -38,7 +38,7 @@ function Banner() {
                 return -c / 2 * (t * (t - 2) - 1) + b;
             }
 
-            requestAnimationFrame(animation); // Lancer l'animation
+            requestAnimationFrame(animation);
         }
     };
 
